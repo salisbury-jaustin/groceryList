@@ -1,0 +1,157 @@
+/* import generic mixins */
+/* import page sections style mixins */
+/* screen sizes */
+/* output */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  margin: 0px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #FFF4F5;
+}
+
+h1 {
+  color: #A13E4B;
+}
+
+.btn {
+  background-color: #FFF4F5;
+  border-color: #A13E4B;
+  cursor: pointer;
+}
+
+.input input {
+  width: 100%;
+  border-color: #FFF4F5;
+}
+.input input:focus {
+  outline-color: #9BDEAC;
+}
+
+.container-item .item {
+  background-color: #ffffff;
+  border: thin solid #A13E4B;
+  border-radius: 4px;
+}
+
+.container-add #btn-add {
+  display: block;
+  margin: 0px 0px 0px auto;
+}
+
+@media screen and (max-width: 767.9px) {
+  #app {
+    width: 95%;
+    min-height: 100vh;
+  }
+
+  .container-item {
+    margin: 0px 0px 1rem 0px;
+  }
+  .container-item .item {
+    padding: 0.25rem 0.4rem;
+  }
+  .container-item .btn-group-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.15rem 0px 0px 0px;
+  }
+  .container-item .btn-group-item button:first-of-type {
+    margin-right: 0.1rem;
+  }
+  .container-item .btn-group-edit {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.15rem 0px 0px 0px;
+  }
+  .container-item .btn-group-edit button:first-of-type {
+    margin-right: 0.1rem;
+  }
+
+  .container-add .btn-group-add {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.15rem 0px 0px 0px;
+  }
+  .container-add .btn-group-add button:first-of-type {
+    margin-right: 0.1rem;
+  }
+}
+@media screen and (max-width: 767.9px) and (orientation: landscape) {
+  #app {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #app {
+    width: 60%;
+  }
+
+  .container-item {
+    margin: 0px 0px 1rem 0px;
+  }
+  .container-item .item {
+    padding: 0.25rem 0.4rem;
+  }
+  .container-item .btn-group-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.15rem 0px 0px 0px;
+  }
+  .container-item .btn-group-item button:first-of-type {
+    margin-right: 0.1rem;
+  }
+  .container-item .btn-group-edit {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.15rem 0px 0px 0px;
+  }
+  .container-item .btn-group-edit button:first-of-type {
+    margin-right: 0.1rem;
+  }
+
+  .container-add .btn-group-add {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.15rem 0px 0px 0px;
+  }
+  .container-add .btn-group-add button:first-of-type {
+    margin-right: 0.1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  #app {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #app {
+    width: 20%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
